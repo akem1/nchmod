@@ -7,8 +7,6 @@
 #include <grp.h>
 #include "menu.h"
 
-/* TODO: Change name from "menu" to "panel" !!! <===== */
-
 /* Local functions */
 static void menu_draw(menu_t *menu);
 static void menu_draw_extra(menu_t *menu);
@@ -25,7 +23,6 @@ int cmd_grp_e(int ch);
 int cmd_oth_r(int ch);
 int cmd_oth_w(int ch);
 int cmd_oth_e(int ch);
-
 
 /* For tracking which checkbox the user is interacting with */
 typedef enum {
